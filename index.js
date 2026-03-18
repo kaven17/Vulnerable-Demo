@@ -56,4 +56,11 @@ app.post('/upload', (req, res) => {
     res.json({ saved: true });
 });
 
+app.post('/login', (req, res) => {
+    const user = req.body.username;
+    const pass = req.body.password;
+    const query = "SELECT * FROM users WHERE username='" + user + "' AND password='" + pass + "'";
+    res.json({ query });
+});
+
 app.listen(3000, () => console.log('Vulnerable app running on port 3000'));
