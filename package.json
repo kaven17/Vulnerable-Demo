@@ -1,0 +1,23 @@
+{
+  "name": "vulnerable-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaven17/Vulnerable-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaven17/Vulnerable-Demo/issues"
+  },
+  "homepage": "https://github.com/kaven17/Vulnerable-Demo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
